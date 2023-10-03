@@ -14,7 +14,15 @@ __Features:__
 <br>
 
 # Usage
-You can download the app at `dist/main_tk` and install it locally. Or, you could interface on CLI. To do the latter, clone the repo to your local machine and navigate to the project directory. Install the required packages from requirements.txt:
+You can download the app at `dist/main_tk` and install it locally. 
+
+<br>
+
+![Group 4](https://github.com/Jamessukanto/matrix_calculator/assets/51419955/b2261b66-337c-4fae-ab42-b4b9d457142d)
+
+<br>
+
+Or, you could interface on CLI. To do so, clone the repo to your local machine and navigate to the project directory. Install the required packages from requirements.txt:
 create a new environment:
 ```
 pip install -r requirements.txt
