@@ -14,7 +14,14 @@ __Features:__
 <br>
 
 # Usage
-You can download the app at `dist/main_tk` and install it locally. 
+
+First off, clone the repo to your local machine and navigate to the project directory. Install the app by navigating to `src` folder and running:
+
+```
+pyinstaller --onefile main_tk.py
+```
+
+That should generate a new folder `dist`. Double-click on `main_tk` within the new folder to run the app. 
 
 <br>
 
@@ -22,34 +29,33 @@ You can download the app at `dist/main_tk` and install it locally.
 
 <br>
 
-Or, you could interface on CLI. To do so, clone the repo to your local machine and navigate to the project directory. Install the required packages from requirements.txt:
-create a new environment:
+Now, to run it on your terminal, you should first install the required packages from requirements.txt:
+
 ```
 pip install -r requirements.txt
 ```
-To run the project, navigate to src folder and use the following command:
+
+<br>
+
+Great! Now, to see all the operations available run the command below. Each operation may require different inputs for its operands. 
 
 ```
 python main_terminal.py help
 ```
-<br>
-
-That should list the operations enabled. Each operation may require different inputs for its operands. 
 
 <br>
 
 ## Example 1: Reduced row-echelon form (including steps)
-For instance, to find out about the rref form, inverse, determinant, and null space of a matrix, run: 
+Find out about the rref form, inverse, determinant, and null space of a given matrix. Note that 'inf' is the initial for the operation, and '[[1,2],[2,2]]' is the operand - I'm using bash so I need to wrap it with single quotation marks. 
 ```
 python main_terminal.py inf '[[1,2],[2,2]]'
 ```
-Note that 'inf' is the initial for the operation, and '[[1,2],[2,2]]' is the operand (I'm using bash so I need to wrap it with single quotation marks). 
 
 <br>
 
 ## Example 2: Orthonormalise a basis
 
-Note that the input for this operation is a list of vectors, not a matrix. Here, 'or' is the operation initial and '[1,2]' '[2,2]' are the two operands. Simply run:
+Apply the Gram-Schmidt process to orthogonalise a set of vectors, then normalising them. Note that the input for this operation is a list of vectors, not a matrix. Here, 'or' is the operation initial and '[1,2]' '[2,2]' are the two operands.
 
 ```
 python main_terminal.py or '[1,2]' '[2,2]' 
