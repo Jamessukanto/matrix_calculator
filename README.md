@@ -1,7 +1,7 @@
 <br>
 
-# Matrix Calculator for offline usage
-I needed a calculator for exams on linear algebra, stats, etc. Accessing the internet is not allowed so, Symbolab can't do. Other students may not be familiar with CLI, hence, the UI.
+# Calculator for offline usage
+I needed a calculator for exams on linear algebra, statistics, etc. Accessing the internet is not allowed so, Symbolab can't do. Other students may not be familiar with CLI, hence, the UI.
 
 __Features:__
 - Matrix information on: RREF form (with steps to it), inverse form, null space
