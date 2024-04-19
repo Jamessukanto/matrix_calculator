@@ -1,7 +1,7 @@
 <br>
 
 # Matrix Calculator for offline usage
-I needed a matrix calculator for an exam, and accessing the internet is not allowed so, no Symbolab. Other students may not be familiar with CLI, hence, the UI.
+I needed a matrix calculator for exams on linear algebra, stats, etc. Accessing the internet is not allowed so, Symbolab can't do. Other students may not be familiar with CLI, hence, the UI.
 
 __Features:__
 - Matrix information on: RREF form (with steps to it), inverse form, null space
@@ -15,10 +15,10 @@ __Features:__
 
 # Usage
 
-First off, clone the repo to your local machine and navigate to the project directory. Install the app by navigating to `src` folder and running:
+First off, clone the repo to your local machine and navigate to the project directory. Install the app by navigating to project folder and running:
 
 ```
-pyinstaller --onefile main_tk.py
+pyinstaller --onefile src/main_tk.py
 ```
 
 That should generate a new folder `dist`. Double-click on `main_tk` within the new folder to run the app. 
